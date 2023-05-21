@@ -97,9 +97,14 @@ article ul li {
     padding: 10px;
 }
 
+article ul li img {
+        display: none;
+    }
+
 article a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.377);
+    transition: .6s;
 }
 
 
@@ -114,4 +119,26 @@ footer {
     padding: 40px;
     text-align: center;
     font-style: italic;
+}
+
+
+a#cert1 {
+    display: block;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14pt;
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: red;
+    width: 100px;
+    border-radius: 10px;
+    
+}
+
+a#cert1:hover {
+    background-color: rgba(255, 0, 0, 0.397);
+    transition: .6s;
 }
