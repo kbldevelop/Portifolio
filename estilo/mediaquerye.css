@@ -1,0 +1,255 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    header {
+        height: 230px;
+    }
+
+    header a {
+        padding: 20px;
+    }
+
+
+    section h1 {
+        color: rgba(255, 255, 255, 0.473);
+        text-align: center;
+        font-family: sans-serif;
+        padding: 20px;
+        font-size: 25pt;
+    
+        border-right: 1px solid rgba(255, 255, 255, 0.363);
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    
+    .typing-animation {
+        animation: piscar 500ms infinite normal, typing 4s 1s normal;
+    }
+    
+    @keyframes typing {
+        from{
+            width: 0;
+        }to {
+            width: 20em;
+        }
+    }
+    
+    @keyframes piscar {
+        from {
+            border-right-color: rgba(255, 255, 255, 0.363);
+        } to {
+            border-right-color: transparent;
+        }
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    header {
+        height: 300px;
+    }
+
+    header a {
+        display: inline;
+    }
+
+    header img {
+        width: 40px;
+    }
+
+
+
+    section h1 {
+        color: rgba(255, 255, 255, 0.473);
+        text-align: center;
+        font-family: sans-serif;
+        padding: 20px;
+        font-size: 29pt;
+    
+        border-right: 1px solid rgba(255, 255, 255, 0.363);
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    
+    .typing-animation {
+        animation: piscar 500ms infinite normal, typing 4s 1s normal;
+    }
+    
+    @keyframes typing {
+        from{
+            width: 0;
+        }to {
+            width: 26em;
+        }
+    }
+    
+    @keyframes piscar {
+        from {
+            border-right-color: rgba(255, 255, 255, 0.363);
+        } to {
+            border-right-color: transparent;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    header {
+        height: 400px;
+    }
+
+    header a {
+        display: inline;
+    }
+
+    header img {
+        width: 60px;
+    }
+
+    section p {
+        margin: auto;
+        text-align: center;
+        font-size: 15pt;
+        width: 80%;
+    }
+
+    article {
+        display: flex;
+    }
+
+    article ul {
+        margin: auto;
+    }
+
+
+    article ul li a {
+        font-size: 25px;
+    }
+
+    article a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+
+
+
+
+
+
+
+    section h1 {
+        color: rgba(255, 255, 255, 0.473);
+        text-align: center;
+        font-family: sans-serif;
+        padding: 20px;
+        font-size: 30pt;
+    
+        border-right: 1px solid rgba(255, 255, 255, 0.363);
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    
+    .typing-animation {
+        animation: piscar 500ms infinite normal, typing 4s 1s normal;
+    }
+    
+    @keyframes typing {
+        from{
+            width: 0;
+        }to {
+            width: 28em;
+        }
+    }
+    
+    @keyframes piscar {
+        from {
+            border-right-color: rgba(255, 255, 255, 0.363);
+        } to {
+            border-right-color: transparent;
+        }
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+    header {
+        height: 500px;
+    }
+
+    header a {
+        display: inline;
+    }
+
+    header img {
+        width: 60px;
+    }
+
+    section p {
+        margin: auto;
+        text-align: center;
+        font-size: 15pt;
+        width: 80%;
+    }
+
+    article {
+        display: flex;
+        height: 300px;
+    }
+
+    article ul {
+        margin: auto;
+    }
+
+    article ul li a {
+        font-size: 28px;
+    }
+
+    article a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+
+    h2 {
+        padding: 30px;
+    }
+
+
+
+
+
+
+
+    section h1 {
+        color: rgba(255, 255, 255, 0.473);
+        text-align: center;
+        font-family: sans-serif;
+        padding: 20px;
+        font-size: 35pt;
+    
+        border-right: 1px solid rgba(255, 255, 255, 0.363);
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    
+    .typing-animation {
+        animation: piscar 500ms infinite normal, typing 4s 1s normal;
+    }
+    
+    @keyframes typing {
+        from{
+            width: 0;
+        }to {
+            width: 33em;
+        }
+    }
+    
+    @keyframes piscar {
+        from {
+            border-right-color: rgba(255, 255, 255, 0.363);
+        } to {
+            border-right-color: transparent;
+        }
+    }
+}
