@@ -107,7 +107,26 @@ article a {
     transition: .6s;
 }
 
+#mostra1 {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
 
+#mostra2 {
+    background-color: rgba(255, 230, 0, 0.493);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 10pt;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#mostra2:hover {
+    background-color: transparent;
+    color: white;
+}
 
 a#cert {
     justify-content: center;
@@ -142,3 +161,4 @@ a#cert1:hover {
     background-color: rgba(255, 0, 0, 0.397);
     transition: .6s;
 }
+
