@@ -1,6 +1,5 @@
 let esconde = document.getElementById(`esc`);
 let esconde1 = document.getElementById(`esc1`);
-let mostra = document.getElementById(`mst`);
 
 let escondeBotao = document.getElementById(`mostra1`);
 
